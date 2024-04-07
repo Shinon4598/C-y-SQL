@@ -1,0 +1,11 @@
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\bin\Debug\RegistroStockHerramientas.exe.config
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\bin\Debug\RegistroStockHerramientas.exe
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\bin\Debug\RegistroStockHerramientas.pdb
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.csproj.AssemblyReference.cache
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.Form1.resources
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.Properties.Resources.resources
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.csproj.GenerateResource.cache
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.csproj.CoreCompileInputs.cache
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.exe
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.pdb
+C:\Users\algui\source\repos\RegistroStockHerramientas\RegistroStockHerramientas\obj\Debug\RegistroStockHerramientas.frmPedirDatos.resources
