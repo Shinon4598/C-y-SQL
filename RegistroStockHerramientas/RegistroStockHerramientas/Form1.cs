@@ -19,6 +19,8 @@ namespace RegistroStockHerramientas
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            cboFiltrar.Items.Add("Mayor precio");
+            cboFiltrar.Items.Add("Menor precio");
             this.CenterToScreen();
             Refresh();
         }
@@ -80,6 +82,18 @@ namespace RegistroStockHerramientas
                 HerramientasDB herramientasDB = new HerramientasDB();
                 herramientasDB.Delete((int)id);
                 Refresh();
+            }
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            int opcion = cboFiltrar.SelectedIndex;
+            HerramientasDB herramientasDB = new HerramientasDB();
+            switch (opcion)
+            {
+                case 0:dataGridView1.DataSource= herramientasDB.MayorPrecio(); break;
+                case 1: dataGridView1.DataSource = herramientasDB.MenorPrecio(); break;
+                default:break;
             }
         }
     }

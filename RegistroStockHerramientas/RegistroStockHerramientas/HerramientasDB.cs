@@ -189,6 +189,80 @@ namespace RegistroStockHerramientas
                 }
             }
         }
+
+        public List<Herramienta> MenorPrecio()
+        {
+            List<Herramienta> herramientas = new List<Herramienta>();
+            string query = "SELECT * FROM herramientas " +
+                "ORDER by precio_unitario asc;";
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                SqlCommand sqlCommand = new SqlCommand(query, connection);
+                try
+                {
+                    connection.Open();
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Herramienta Oherramienta = new Herramienta();
+
+                        Oherramienta.Id = reader.GetInt32(0);
+                        Oherramienta.Nombre = reader.GetString(1);
+                        Oherramienta.Descripcion = reader.IsDBNull(2) ? null : reader.GetString(2);
+                        Oherramienta.Codigo = reader.GetString(3);
+                        Oherramienta.Marca = reader.GetString(4);
+                        Oherramienta.Stock_minimo = reader.GetInt32(5);
+                        Oherramienta.Stock_maximo = reader.GetInt32(6);
+                        Oherramienta.Precio_unitario = reader.GetDouble(7);
+
+                        herramientas.Add(Oherramienta);
+                    }
+                    reader.Close();
+                }catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+            }
+            return herramientas;
+        }
+        public List<Herramienta> MayorPrecio()
+        {
+            List<Herramienta> herramientas = new List<Herramienta>();
+            string query = "SELECT * FROM herramientas " +
+                "ORDER by precio_unitario desc;";
+
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                SqlCommand sqlCommand = new SqlCommand(query, connection);
+                try
+                {
+                    connection.Open();
+                    SqlDataReader reader = sqlCommand.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Herramienta Oherramienta = new Herramienta();
+
+                        Oherramienta.Id = reader.GetInt32(0);
+                        Oherramienta.Nombre = reader.GetString(1);
+                        Oherramienta.Descripcion = reader.IsDBNull(2) ? null : reader.GetString(2);
+                        Oherramienta.Codigo = reader.GetString(3);
+                        Oherramienta.Marca = reader.GetString(4);
+                        Oherramienta.Stock_minimo = reader.GetInt32(5);
+                        Oherramienta.Stock_maximo = reader.GetInt32(6);
+                        Oherramienta.Precio_unitario = reader.GetDouble(7);
+
+                        herramientas.Add(Oherramienta);
+                    }
+                    reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+            }
+            return herramientas;
+        }
     }
     public class Herramienta {
         private int _stock_maximo;
