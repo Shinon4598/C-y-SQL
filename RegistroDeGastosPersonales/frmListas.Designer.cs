@@ -34,6 +34,7 @@
             this.dgvTransacciones = new System.Windows.Forms.DataGridView();
             this.lblEditar = new System.Windows.Forms.Label();
             this.btnEditar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransacciones)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@
             this.btnFiltrar.TabIndex = 1;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // dgvTransacciones
             // 
@@ -67,6 +69,7 @@
             this.dgvTransacciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTransacciones.Location = new System.Drawing.Point(12, 39);
             this.dgvTransacciones.Name = "dgvTransacciones";
+            this.dgvTransacciones.ReadOnly = true;
             this.dgvTransacciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTransacciones.Size = new System.Drawing.Size(729, 266);
             this.dgvTransacciones.TabIndex = 2;
@@ -80,9 +83,10 @@
             this.lblEditar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblEditar.Location = new System.Drawing.Point(235, 13);
             this.lblEditar.Name = "lblEditar";
-            this.lblEditar.Size = new System.Drawing.Size(236, 22);
+            this.lblEditar.Size = new System.Drawing.Size(215, 22);
             this.lblEditar.TabIndex = 3;
-            this.lblEditar.Text = "Texto que debe de aparecer";
+            this.lblEditar.Text = "Selecciona la fila a Editar";
+            this.lblEditar.Visible = false;
             // 
             // btnEditar
             // 
@@ -92,7 +96,19 @@
             this.btnEditar.TabIndex = 4;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Visible = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Location = new System.Drawing.Point(12, 10);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.TabIndex = 5;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Visible = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // frmListas
             // 
@@ -100,6 +116,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Crimson;
             this.ClientSize = new System.Drawing.Size(757, 317);
+            this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.lblEditar);
             this.Controls.Add(this.dgvTransacciones);
@@ -122,5 +139,6 @@
         private System.Windows.Forms.DataGridView dgvTransacciones;
         private System.Windows.Forms.Label lblEditar;
         private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }

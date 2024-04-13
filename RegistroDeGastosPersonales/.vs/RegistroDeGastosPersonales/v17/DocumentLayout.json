@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|c:\\users\\algui\\source\\repos\\registrodegastospersonales\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|solutionrelative:frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,15 +15,7 @@
       "RelativeMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|solutionrelative:frmlistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmingresar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|solutionrelative:frmingresar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frminicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|solutionrelative:frminicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\transaccionesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|c:\\users\\algui\\source\\repos\\registrodegastospersonales\\transaccionesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77B1B15D-1F34-4513-9C73-C11D193779BF}|RegistroDeGastosPersonales.csproj|solutionrelative:transaccionesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmListas.cs",
-              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmListas.cs",
-              "RelativeDocumentMoniker": "frmListas.cs",
-              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmListas.cs",
-              "RelativeToolTip": "frmListas.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDQAAAApAAAA",
+              "DocumentIndex": 0,
+              "Title": "FrmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.cs",
+              "RelativeDocumentMoniker": "FrmInicio.cs",
+              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.cs",
+              "RelativeToolTip": "FrmInicio.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswGYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:54:27.041Z",
+              "WhenOpened": "2024-04-13T18:30:51.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransaccionesDB.cs",
+              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\TransaccionesDB.cs",
+              "RelativeDocumentMoniker": "TransaccionesDB.cs",
+              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\TransaccionesDB.cs",
+              "RelativeToolTip": "TransaccionesDB.cs",
+              "ViewState": "AQIAADABAAAAAAAAAAAswEYBAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:10:37.305Z",
               "EditorCaption": ""
             },
             {
@@ -66,63 +71,25 @@
               "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmListas.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmListas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:31:15.413Z",
+              "WhenOpened": "2024-04-13T18:09:41.908Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmListas.cs",
+              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmListas.cs",
+              "RelativeDocumentMoniker": "frmListas.cs",
+              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\frmListas.cs",
+              "RelativeToolTip": "frmListas.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:21:32.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmInicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.Designer.cs",
-              "RelativeDocumentMoniker": "FrmInicio.Designer.cs",
-              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.Designer.cs",
-              "RelativeToolTip": "FrmInicio.Designer.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAADgv4QAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:29:55.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmIngresar.cs",
-              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmIngresar.cs",
-              "RelativeDocumentMoniker": "FrmIngresar.cs",
-              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmIngresar.cs",
-              "RelativeToolTip": "FrmIngresar.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T14:57:43.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.cs",
-              "RelativeDocumentMoniker": "FrmInicio.cs",
-              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.cs",
-              "RelativeToolTip": "FrmInicio.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAtwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:07:23.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransaccionesDB.cs",
-              "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\TransaccionesDB.cs",
-              "RelativeDocumentMoniker": "TransaccionesDB.cs",
-              "ToolTip": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\TransaccionesDB.cs",
-              "RelativeToolTip": "TransaccionesDB.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:25:47.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "FrmInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\algui\\source\\repos\\RegistroDeGastosPersonales\\FrmInicio.cs",
               "RelativeDocumentMoniker": "FrmInicio.cs",
