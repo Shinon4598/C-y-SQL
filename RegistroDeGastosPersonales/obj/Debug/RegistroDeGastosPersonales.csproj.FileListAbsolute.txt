@@ -1,0 +1,12 @@
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\bin\Debug\RegistroDeGastosPersonales.exe.config
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\bin\Debug\RegistroDeGastosPersonales.exe
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\bin\Debug\RegistroDeGastosPersonales.pdb
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.csproj.AssemblyReference.cache
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.Properties.Resources.resources
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.csproj.GenerateResource.cache
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.csproj.CoreCompileInputs.cache
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.exe
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.pdb
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.FrmIngresar.resources
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.FrmInicio.resources
+C:\Users\algui\source\repos\RegistroDeGastosPersonales\obj\Debug\RegistroDeGastosPersonales.frmListas.resources
